@@ -15,7 +15,7 @@ volatile int16_t completeData;
 volatile float degreesPerSecond;
 volatile float timeInterval;
 volatile float angle;
-volatile uint8_t switchvar;
+volatile uint8_t switchvar=1;
 volatile unsigned char mensaje[] = {"º___\r\n"};
 volatile unsigned char i = 1;
 
