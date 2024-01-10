@@ -1,7 +1,7 @@
 #include "stm32f0xx.h"
 
 volatile uint16_t i;
-
+//secuencia del motor
 unsigned char secuencia[]={12,6,3,9};
 unsigned char paso=0;
 unsigned char reload;
